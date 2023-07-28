@@ -1,10 +1,8 @@
-package com.example.myapplication;
+package com.example.task1_flashlightapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-import com.karumi.dexter.Dexter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,7 +10,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
 }
